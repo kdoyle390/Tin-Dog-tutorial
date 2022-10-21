@@ -13,6 +13,14 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
 .container-fluid {
     padding: 3% 15%;
 }
@@ -54,6 +62,23 @@ h1 {
 
 /* Information */
 
+#features {
+    padding: 7% 15%;
+}
+
 .fact-icon {
     font-size: 3rem;
+    color: #ef8172;;
+    padding: 5%;
 }
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+.fact-icon:hover {
+    color: #ff4c68;
+}
+
